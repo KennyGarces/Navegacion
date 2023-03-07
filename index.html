@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login kenny</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
 </head>
-<body>
-    <header>
-        <img src="https://virtual.unac.edu.co/pluginfile.php/1/theme_moove/logo/1675911414/UNAC_Yellow.png" alt="">
-        <h1>NAVEGADOR</h1>
-    </header>
-    <ul>
-       
-       <li><a href="PAGES/blog.html">Blog</a></li>
-       <li><a href="PAGES/twitter.html">Twitter</a></li>
-       <li><a href="PAGES/Services.html">Services</a></li>
-       <li><a href="PAGES/games.html">Games</a></li>
-       <li><a href="PAGES/store.html">Store</a></li> 
 
-    </ul>
-    <footer>
+<body >
+    <div class="Container">
+        <div class="infoPagina">
+            <h1>BIENVENIDO</h1>
+            <hr>
 
-    <h4>Kenny Alejandro Garces Cabrera</h4>
-    <h4>Contacto: 3233310052</h4>
-    <address>kenny.garces@unac.edu.co</address>
-    </footer>
+        </div>
 
+        <form class=" form">
+            <h1> Login</h1>
+            <div class="boton">
+                <input type="text"  placeholder="Usuario" id="username"  >
+                <input type="password" placeholder="Contraseña" id="password" > 
+                <button class="btn btn-light me-5 ms-5 mb-3 mt-2" type="submit" onclick="login(event)" onclick="consumirListar()"> Login</button>
+                
+            </div>
+        </form>
+
+
+    </div>
+    <script src = "main.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
+
 </html>
